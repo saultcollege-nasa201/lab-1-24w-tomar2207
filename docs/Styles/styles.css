@@ -1,6 +1,32 @@
-h1, h2
+body
 {
-    color:red;
+    background-color: #AFEEEE;
+    color: 	#2F4F4F;
+}
+h1
+{
+    font-size: 50px;
+    text-align: center;
+}
+form
+{
+    font-size: 30px;
+    text-align: center; 
+}
+#CC, #subject, #submit
+{
+    width: 20%;
+    height: auto;
+}
+img
+{
+    border-radius: 50%;
+    align-content: center;
+}
+table, th, td
+{
+    text-align: center;
+    border: 1px solid;
 }
 address
 {
