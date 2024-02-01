@@ -1,7 +1,10 @@
 body
 {
-    background-color: #AFEEEE;
-    color: 	#2F4F4F;
+    background-color: #99ffcc;
+    color: 	#000066;
+    text-align: center;
+    font-size: 30px;
+    table-layout: auto;
 }
 h1
 {
@@ -20,15 +23,17 @@ form
 }
 img
 {
-    border-radius: 50%;
+    border-radius: 10%;
     align-content: center;
 }
 table, th, td
 {
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     border: 1px solid;
 }
-address
+a:hover
 {
-    font-size: 20px;
+    background-color: #cc9900;
 }
