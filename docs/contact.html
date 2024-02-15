@@ -12,21 +12,21 @@
         <h1>Contact Me</h1>
         <form name="myForm" onsubmit="return validateForm()" action="mailto:21111185@saultcollege.ca" method="post">
         <label for="CC">CC:</label><br>
-        <input type="email" id="CC" name="CC"><br><br>
+        <input type="email" id="CC" name="CC"><span id="ccError"></span><br><br>
         <label for="subject">Subject:</label><br>
-        <textarea id="subject" name="subject"></textarea><br><br>
+        <textarea id="subject" name="subject"></textarea><span id="subjectError"></span><br><br>
         <input type="radio" id="Male" name="fav_language" value="Male">
         <label for="Male">Male</label><br>
         <input type="radio" id="Female" name="fav_language" value="Female">
         <label for="css">Female</label><br>
         <input type="radio" id="Other" name="fav_language" value="Other">
-        <label for="Other">Other</label><br><br>
+        <label for="Other">Other</label><br><span id="radioError"></span><br><br>
         <input type="checkbox" id="Cricket" name="hobby" value="cricket">
         <label for="cricket">Cricket</label><br>
         <input type="checkbox" id="baseball" name="baseball" value="baseball">
         <label for="baseball">Baseball</label><br>
         <input type="checkbox" id="basketball" name="basketball" value="basketball">
-        <label for="basketball">Basketball</label><br><br>
+        <label for="basketball">Basketball</label><br><span id="checkboxError"></span><br><br>
         <button type="submit" id="submit" value="submit">Send</button>
         </form><br><br><br>
         <a href="index.html">Home</a>
