@@ -14,7 +14,7 @@ h1
 form
 {
     font-size: 30px;
-    text-align: center; 
+    text-align: center;
 }
 #CC, #subject, #submit
 {
@@ -37,3 +37,4 @@ a:hover
 {
     background-color: #cc9900;
 }
+

@@ -6,16 +6,28 @@
         <meta name="author" content="Nitesh Tomar">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="Styles/styles.css">
-        <script src="script.js"></script>
+        <script src="script.js" defer></script>
     </head>
     <body>
         <h1>Contact Me</h1>
-        <form action="mailto:21111185@saultcollege.ca" method="get">
+        <form name="myForm" onsubmit="return validateForm()" action="mailto:21111185@saultcollege.ca" method="post">
         <label for="CC">CC:</label><br>
         <input type="email" id="CC" name="CC"><br><br>
         <label for="subject">Subject:</label><br>
-        <textarea id="subject" name="subject" required></textarea><br><br>
-        <button type="submit" id="submit">Send</button>
+        <textarea id="subject" name="subject"></textarea><br><br>
+        <input type="radio" id="Male" name="fav_language" value="Male">
+        <label for="Male">Male</label><br>
+        <input type="radio" id="Female" name="fav_language" value="Female">
+        <label for="css">Female</label><br>
+        <input type="radio" id="Other" name="fav_language" value="Other">
+        <label for="Other">Other</label><br><br>
+        <input type="checkbox" id="Cricket" name="hobby" value="cricket">
+        <label for="cricket">Cricket</label><br>
+        <input type="checkbox" id="baseball" name="baseball" value="baseball">
+        <label for="baseball">Baseball</label><br>
+        <input type="checkbox" id="basketball" name="basketball" value="basketball">
+        <label for="basketball">Basketball</label><br><br>
+        <button type="submit" id="submit" value="submit">Send</button>
         </form><br><br><br>
         <a href="index.html">Home</a>
     </body>    
