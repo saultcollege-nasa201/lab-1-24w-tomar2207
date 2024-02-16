@@ -7,9 +7,11 @@ function validateForm() {
     var checkboxChecked = false;
     if (CC == "") {
       document.getElementById("ccError").textContent = "\u26A0  Please fill out CC";
+      event.preventDefault();
     }
     if (subject == "") {
       document.getElementById("subjectError").textContent = "\u26A0  Please fill out Subject";
+      event.preventDefault();
     }
     for (var i = 0; i < radioButtons.length; i++) {
         if (radioButtons[i].checked) {
